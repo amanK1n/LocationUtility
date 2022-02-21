@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12CC0ECC46213D34CC093068 /* LocationUtility.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LocationUtility.podspec; path = ../LocationUtility.podspec; sourceTree = "<group>"; };
+		12CC0ECC46213D34CC093068 /* LocationUtility.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LocationUtility.podspec; path = ../LocationUtility.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* LocationUtility_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationUtility_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,8 +41,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		66174CECB1EC597D5B73DE18 /* Pods-LocationUtility_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationUtility_Example.release.xcconfig"; path = "Target Support Files/Pods-LocationUtility_Example/Pods-LocationUtility_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6F5B156152B892CD21337F34 /* Pods_LocationUtility_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocationUtility_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76134679BB01A9B810A8BB63 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		9AD1CBB659823A6858993748 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		76134679BB01A9B810A8BB63 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9AD1CBB659823A6858993748 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A2E4DB4ED37348DFB8206D6A /* Pods-LocationUtility_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationUtility_Tests.release.xcconfig"; path = "Target Support Files/Pods-LocationUtility_Tests/Pods-LocationUtility_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E2859C736A203D2595A2373D /* Pods-LocationUtility_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationUtility_Example.debug.xcconfig"; path = "Target Support Files/Pods-LocationUtility_Example/Pods-LocationUtility_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F22AE1982490BC1FE29CF93E /* Pods_LocationUtility_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocationUtility_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +156,6 @@
 				F50A916E831B5EEF8C8BD313 /* Pods-LocationUtility_Tests.debug.xcconfig */,
 				A2E4DB4ED37348DFB8206D6A /* Pods-LocationUtility_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
